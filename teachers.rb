@@ -8,6 +8,15 @@ class Teachers < TeachLearn
     @target_raise = self.class::TARGET_RAISE
   end
 
+  def teach_stuff
+    response = ""
+    response += "Listen, class, this is how everything works"
+    response += self.class::RESPONSE1
+    response += "... You're welcome."
+    response += self.class::RESPONSE2
+    response
+  end
+
   def salary=(new_salary)
     puts "This better be good!"
     @salary = new_salary

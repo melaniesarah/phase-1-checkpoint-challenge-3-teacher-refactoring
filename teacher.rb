@@ -4,15 +4,10 @@ class Teacher < Teachers
   PHASE = 3
   TARGET_RAISE = 1000
   RATING = 90
-  attr_reader :performance_rating
+  RESPONSE1 = ", fo SHO! *drops flat-out insane knowledge bomb* "
+  RESPONSE2 = " *saunters away*"
 
-  def teach_stuff
-    response = ""
-    response += "Listen, class, this is how everything works, fo SHO! "
-    response += "*drops flat-out insane knowledge bomb* "
-    response += "... You're welcome. *saunters away*"
-    response
-  end
+  attr_reader :performance_rating
 end
 
-#RUNNER CODE
+
