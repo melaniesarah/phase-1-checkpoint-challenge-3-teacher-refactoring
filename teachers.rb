@@ -1,6 +1,7 @@
 require_relative 'teach_learn'
 
 class Teachers < TeachLearn
+  PHASE = 3
   attr_reader :salary, :phase, :target_raise
 
   def initialize(options={})
