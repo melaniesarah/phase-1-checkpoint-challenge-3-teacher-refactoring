@@ -9,7 +9,7 @@ Using #fetch helps "ensure that the given key exists in a hash (or array). This 
 
 2. What is the disadvantage of single inheritance, and what's a possible solution to that problem?
 
-"over time the requirements changed, and things that are common from our original perspective may be not common when viewed by a new perspective. Now everything that depends on the common interface have to be rewrite..."
+"The answer is that inheritance violates encapsulation.  In other words, by inheriting from a class you're coupling yourself with any number of potential implementation details of the parent; all of which are completely avoided by using composition instead."
 
 3. Why are these classes initialized with an options hash?
 
